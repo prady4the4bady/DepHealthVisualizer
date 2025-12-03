@@ -4,6 +4,8 @@
 [![Dependency Scan](https://img.shields.io/badge/Dependency-Scanner-blue)](https://github.com/prady4the4bady/dep-health-visualizer)
 [![Health Score](https://img.shields.io/badge/Health-Score-orange)](https://github.com/prady4the4bady/dep-health-visualizer)
 
+**Made by prady**
+
 ## 📌 Problem
 
 Teams need comprehensive dependency audits for:

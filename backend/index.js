@@ -7,6 +7,9 @@ const path = require('path');
 const { v4: uuidv4 } = require('uuid');
 require('dotenv').config();
 
+// DepHealthVisualizer - License & Dependency Health Visualizer
+// Made by prady
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -335,6 +338,7 @@ fs.mkdir('uploads', { recursive: true }).catch(() => {});
 app.listen(PORT, () => {
   console.log(`🔍 Dependency Health Visualizer API running on port ${PORT}`);
   console.log(`📊 Health check available at http://localhost:${PORT}/health`);
+  console.log(`👨‍💻 Made by prady`);
 });
 
 module.exports = app;
